@@ -1,0 +1,49 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 200px;
+  gap: 15px;
+
+  margin: 0;
+  padding: 5px 15px;
+  border-radius: 10px;
+
+  background-color: rgb(190, 228, 240);
+  /* box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px; */
+}
+
+.status {
+  display: block;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: red;
+}
+
+.avatar {
+  margin: 0;
+  padding: 0;
+}
+.name {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 600;
+}
